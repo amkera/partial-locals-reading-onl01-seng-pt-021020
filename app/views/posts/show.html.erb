@@ -13,3 +13,5 @@ Information About the Post
 #The second key-value pair specifies the locals as a Hash. That Hash's keys (post_author here) will be created as local variables within the partial.
 
 #When we use locals, we need to make sure that the variables we refer to in our partial have the same names as the keys in our locals hash.
+
+#The way we use locals with a partial is similar to how we pass arguments into a method. In the locals Hash, the post_author: key is the argument name, and the value of that argument, @author, is the value stored as post_author and passed into the method. We can name the keys whatever we want.
